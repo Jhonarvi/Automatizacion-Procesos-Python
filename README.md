@@ -32,3 +32,8 @@ Se desarrolló un bot que automatiza el flujo completo de extracción, limpieza 
 1. Clona este repositorio:
    ```bash
    git clone [https://github.com/Jhonarvi/Automatizacion-Procesos-Python.git](https://github.com/Jhonarvi/Automatizacion-Procesos-Python.git)
+
+### 2. Bot de Mensajería Masiva con IA (WhatsApp)
+* **El Problema:** El envío manual de recordatorios diarios a más de 30 campistas consumía mucho tiempo y el uso de plantillas genéricas reducía la interacción de los estudiantes.
+* **La Solución:** Script en Python que lee una base de datos telefónica, utiliza la API de **Google Gemini 2.5 Flash** para redactar mensajes amigables y 100% personalizados por estudiante, y ejecuta el envío automático a través de WhatsApp Web (RPA básico).
+* **Tecnologías:** Python, Google GenAI API (Prompt Engineering), Pandas, PyWhatKit, PyAutoGUI.
